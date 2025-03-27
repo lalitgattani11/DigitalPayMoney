@@ -1,0 +1,91 @@
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.custom-spacing {
+  text-align: center;
+  padding-top: 13rem;
+}
+
+.custom-font {
+  font-weight: 600;
+  color: #4b5156;
+  font-size: 55px;
+  text-align: center;
+}
+.navbar {
+  background: linear-gradient(to right, #ffffff 0%, #6fa8dc 100%);
+}
+#section {
+  min-height: 500px;
+  background: linear-gradient(160deg, #0376b9 0%, #28a745 100%);
+}
+
+.con1 p {
+  font-weight: bold;
+}
+#cnt {
+  font-weight: 600;
+  padding-top: 45px;
+  text-align: center;
+  min-height: 200px;
+  background: linear-gradient(160deg, #2a3ba5 0%, #9b42c6 100%);
+}
+
+.con1 {
+  text-align: center;
+  background-color: rgba(243, 222, 237, 0.6);
+  height: 200px;
+  width: 215px;
+  padding: 40px 20px;
+}
+.footer {
+  background: linear-gradient(160deg, #0376b9 0%, #28a745 100%);
+}
+.footer1 {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background: none;
+}
+#ul {
+  background: none;
+}
+#img {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .custom-font {
+    font-size: 40px;
+  }
+  .con1 {
+    width: 100%;
+    max-width: 180px;
+  }
+  .footer1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .footer1 div {
+    text-align: center;
+  }
+  .navbar .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar .nav {
+    justify-content: center;
+  }
+}
+@media (max-width: 692px) {
+  #image {
+    height: 300px;
+    width: 300px;
+  }
+}
